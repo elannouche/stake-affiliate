@@ -3,49 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Promotion Exclusive - [Nom de la Société]</title>
     
-    <link rel="stylesheet" href="style.css">
+    <!-- Titre de la page -->
+    <title>Bonus Exclusif Stake - Rejoignez la Plateforme N°1 de Crypto-Gaming</title>
     
-    </head>
-<body>
+    <!-- Description pour les moteurs de recherche -->
+    <meta name="description" content="Inscrivez-vous sur Stake.com avec notre lien d'affiliation et recevez un bonus de bienvenue exclusif. Jouez aux meilleurs jeux de casino et pariez sur tous les sports en crypto.">
+    
+    <!-- Importation de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Importation de la police "Inter" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Appliquer la police Inter et un thème sombre global */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a202c; /* Un gris très sombre, similaire à Stake */
+            color: #e2e8f0;
+        }
+        /* Style pour les dégradés sur les titres */
+        .text-gradient {
+            background: linear-gradient(to right, #4f46e5, #0ea5e9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="antialiased">
 
-    <header>
-        <img src="Stake-Banners-120x240" alt="Logo de [Nom de la Société]" class="logo">
-        <h1>Offre Spéciale : Découvrez le [Nom du Produit] !</h1>
+    <!-- =========== HEADER / EN-TÊTE =========== -->
+    <header class="bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <!-- Remplacez par le logo de Stake si vous l'avez, sinon laissez le texte -->
+            <h1 class="text-2xl font-black text-white">STAKE</h1>
+            
+            <!-- !! REMPLACEZ "#" PAR VOTRE LIEN D'AFFILIATION STAKE !! -->
+            <a href="#" class="bg-blue-600 text-white font-bold py-2 px-5 rounded-md hover:bg-blue-700 transition duration-300 shadow-lg shadow-blue-600/30">
+                S'inscrire
+            </a>
+        </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <h2>Le produit qui va changer votre quotidien</h2>
-            <img src="images/produit-principal.jpg" alt="Image principale du produit" class="hero-image">
-            <p class="subtitle">La solution idéale pour [résoudre quel problème ?].</p>
-        </section>
-
-        <section class="features">
-            <h3>Pourquoi choisir [Nom du Produit] ?</h3>
-            <ul>
-                <li>✅ Caractéristique clé n°1 (ex: Qualité supérieure)</li>
-                <li>✅ Caractéristique clé n°2 (ex: Facile à utiliser)</li>
-                <li>✅ Caractéristique clé n°3 (ex: Support client 24/7)</li>
-            </ul>
-        </section>
-
-        <section class="cta-section">
-            <h3>Prêt à en profiter ?</h3>
-            <p>Cliquez sur le bouton ci-dessous pour bénéficier d'une réduction exclusive !</p>
-            <a href="#" class="cta-button">
-                Profiter de l'offre maintenant !
-            </a>
-        </section>
+    <!-- =========== SECTION PRINCIPALE / HERO =========== -->
+    <main class="container mx-auto px-6 py-16 md:py-24 text-center">
+        <h2 class="text-4xl md:text-6xl font-black text-white leading-tight">
+            Rejoignez la <span class="text-gradient">Révolution</span> du Jeu en Ligne
+        </h2>
+        <p class="mt-4 text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">
+            La plateforme de casino et de paris sportifs en crypto la plus populaire au monde. Dépôts et retraits instantanés.
+        </p>
         
-        <section class="transparency">
-            <p><small>En tant que partenaire affilié, je peux recevoir une commission si vous achetez via mes liens, sans frais supplémentaires pour vous. Merci pour votre soutien !</small></p>
-        </section>
+        <div class="mt-8">
+            <!-- !! REMPLACEZ "#" PAR VOTRE LIEN D'AFFILIATION STAKE !! -->
+            <a href="#" class="inline-block bg-blue-600 text-white font-extrabold py-4 px-10 text-xl rounded-lg shadow-lg shadow-blue-500/50 hover:bg-blue-700 transform hover:scale-105 transition duration-300">
+                RÉCUPÉRER MON BONUS
+            </a>
+            <p class="mt-3 text-sm text-gray-500">Utilisez le code <span class="font-bold text-white">[VOTRE_CODE_PROMO]</span> lors de l'inscription</p>
+        </div>
+
+        <!-- Section des bannières fournies par Stake -->
+        <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            <!-- Remplacez ces images par les bannières de Stake -->
+            <img src="https://placehold.co/600x400/000000/FFFFFF?text=Bannière+Casino+Stake" alt="Bannière promotionnelle pour le casino Stake" class="rounded-lg shadow-xl hover:scale-105 transition-transform duration-300">
+            <img src="https://placehold.co/600x400/000000/FFFFFF?text=Bannière+Paris+Sportifs" alt="Bannière promotionnelle pour les paris sportifs sur Stake" class="rounded-lg shadow-xl hover:scale-105 transition-transform duration-300">
+        </div>
     </main>
 
-    <footer>
-        <p>&copy; 2024 - Tous droits réservés.</p>
+    <!-- =========== SECTION PREUVE SOCIALE / PARTENAIRES =========== -->
+    <section class="py-12 bg-gray-900">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-sm font-bold tracking-widest text-gray-500 uppercase">PARTENAIRES OFFICIELS DE CONFIANCE</h3>
+            <div class="mt-6 flex justify-center items-center space-x-8 md:space-x-12 opacity-70">
+                <!-- Vous pouvez remplacer ces textes par les logos des partenaires de Stake -->
+                <span class="text-2xl font-bold text-gray-300">UFC</span>
+                <span class="text-2xl font-bold text-gray-300">DRAKE</span>
+                <span class="text-2xl font-bold text-gray-300">EVERTON F.C.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========== SECTION CARACTÉRISTIQUES =========== -->
+    <section class="container mx-auto px-6 py-16 md:py-24">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-white">Pourquoi choisir Stake ?</h2>
+            <p class="text-gray-400 mt-2">L'expérience de jeu la plus complète et la plus juste.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+            <!-- Caractéristique 1 -->
+            <div class="bg-gray-800 p-6 rounded-lg text-center">
+                <h3 class="text-xl font-bold text-white">Retraits Instantanés</h3>
+                <p class="mt-2 text-gray-400">Recevez vos gains en quelques minutes grâce aux cryptomonnaies.</p>
+            </div>
+            <!-- Caractéristique 2 -->
+            <div class="bg-gray-800 p-6 rounded-lg text-center">
+                <h3 class="text-xl font-bold text-white">Jeux "Provably Fair"</h3>
+                <p class="mt-2 text-gray-400">Une équité 100% vérifiable sur tous nos jeux originaux.</p>
+            </div>
+            <!-- Caractéristique 3 -->
+            <div class="bg-gray-800 p-6 rounded-lg text-center">
+                <h3 class="text-xl font-bold text-white">Programme VIP</h3>
+                <p class="mt-2 text-gray-400">Des bonus et un rakeback inégalés pour les joueurs fidèles.</p>
+            </div>
+            <!-- Caractéristique 4 -->
+            <div class="bg-gray-800 p-6 rounded-lg text-center">
+                <h3 class="text-xl font-bold text-white">Support 24/7</h3>
+                <p class="mt-2 text-gray-400">Une équipe d'assistance disponible en direct à tout moment.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========== PIED DE PAGE / FOOTER =========== -->
+    <footer class="bg-gray-900 border-t border-gray-700">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <!-- Avertissement sur le jeu -->
+            <p class="text-xs text-gray-500 max-w-3xl mx-auto">
+                Le jeu peut être addictif. Veuillez jouer de manière responsable. Vous devez avoir 18 ans ou plus pour jouer. Les informations sur ce site sont destinées à des fins de divertissement uniquement.
+            </p>
+            <!-- Mention de l'affiliation -->
+            <p class="mt-4 text-xs text-gray-500">
+                Divulgation : Ce site contient des liens d'affiliation. Je peux recevoir une commission si vous créez un compte et jouez via ces liens, sans aucun coût supplémentaire pour vous.
+            </p>
+            <p class="mt-4 text-sm text-gray-600">
+                &copy; 2024 - Site de promotion non-officiel.
+            </p>
+        </div>
     </footer>
 
 </body>
